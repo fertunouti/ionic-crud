@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-
+import { ProductReadComponent } from './components/product/product-read/product-read.component';  
 const routes: Routes = [
   {
     path: 'home',
@@ -11,6 +11,11 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+  path: "products",
+  component: ProductReadComponent
+},
+  
 ];
 
 @NgModule({

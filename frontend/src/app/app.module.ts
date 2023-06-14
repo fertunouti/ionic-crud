@@ -6,10 +6,28 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar'
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  declarations: [
+    AppComponent,
+    ProductCrudComponent,
+   
+  ],
+  
+  
+  
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    MatSnackBarModule,
+    HttpClientModule
+  
+  
+  ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
