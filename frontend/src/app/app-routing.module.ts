@@ -15,6 +15,10 @@ const routes: Routes = [
   path: "products",
   component: ProductReadComponent
 },
+  {
+    path: 'teste',
+    loadChildren: () => import('./teste/teste.module').then( m => m.TestePageModule)
+  },
   
 ];
 

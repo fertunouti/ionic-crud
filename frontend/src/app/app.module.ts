@@ -10,10 +10,13 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import {MatSnackBarModule} from '@angular/material/snack-bar'
 import {HttpClientModule} from '@angular/common/http'
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
-    ProductCrudComponent,
+    ProductCrudComponent
+   
    
   ],
   
