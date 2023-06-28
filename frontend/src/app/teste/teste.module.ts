@@ -9,12 +9,20 @@ import { TestePageRoutingModule } from './teste-routing.module';
 
 import { TestePage } from './teste.page';
 
+import { HomePageModule } from '../home/home.module';
+import { ComponentsModule } from '../components/components.module';
+
+
+ 
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    TestePageRoutingModule
+    TestePageRoutingModule,
+    HomePageModule,
+    ComponentsModule
   ],
   declarations: [TestePage, Read2Component]
 })

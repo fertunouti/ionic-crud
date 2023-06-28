@@ -1,0 +1,33 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "name": "Maria José",
+        "userName": "mjose",
+        "email": "mjose@email.com",
+        "tipoUsuario": "prestador"
+      },
+      {
+        "id": 2,
+        "name": "Vinícius Junior",
+        "userName": "vinijr",
+        "email": "vinijr@email.com",
+        "tipoUsuario": "cliente"
+      },
+      {
+        "id": 3,
+        "name": "Marta Rocha",
+        "userName": "mrocha",
+        "email": "mrocha@email.com",
+        "tipoUsuario": "prestador"
+      },
+      {
+        "id": 4,
+        "name": "Raphael Veiga",
+        "userName": "rveiga",
+        "email": "rveiga@email.com",
+        "tipoUsuario": "cliente"
+      }
+      
+    ]
+  }

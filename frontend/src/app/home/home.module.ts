@@ -1,12 +1,11 @@
-
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
-import { HomePageRoutingModule } from './home-routing.module';
-import { ArtigoComponent } from '../artigo/artigo.component';
 import { ProductReadComponent } from '../components/product/product-read/product-read.component';
+import { HomePageRoutingModule } from './home-routing.module';
+import { ComponentsModule } from '../components/components.module';
 
 
 @NgModule({
@@ -14,10 +13,12 @@ import { ProductReadComponent } from '../components/product/product-read/product
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
-    
-    
+    HomePageRoutingModule,
+    ComponentsModule
   ],
-  declarations: [HomePage,ArtigoComponent,ProductReadComponent]
+  declarations: [HomePage,ProductReadComponent]
 })
-export class HomePageModule {}
+export class HomePageModule {
+
+  
+}

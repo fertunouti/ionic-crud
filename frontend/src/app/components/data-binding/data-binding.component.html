@@ -1,0 +1,54 @@
+<!-- 
+<section>
+  <h1>teste</h1>
+ <p>{{url}}</p> 
+</section>
+
+<br><br> -->
+
+<!-- <section>
+
+  <div>
+    <button  (click)="botaoClicado()">
+      Clique me!
+    </button>
+<br><br>
+    O nome do portal é {{nomePortal}}
+  <br><br>
+
+  <ul>
+    <li  *ngFor="let curso of listaCursos "> {{ curso }}</li>
+    
+  </ul>
+
+  </div>
+</section> -->
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">teste</ion-title>
+    </ion-toolbar>
+  </ion-header>
+      <!-- <h3>Class e Style Binding</h3>
+      <div>
+        Selecione uma classe?
+        <ion-select #cor (change)="0">
+          <ion-select-option value="success">Sucesso</ion-select-option>
+          <ion-select-option value="primary">Info</ion-select-option>
+          <ion-select-option value="warning">Alerta</ion-select-option>
+          <ion-select-option value="danger">Erro</ion-select-option>
+        </ion-select>
+        -->
+        <br><br>
+        <!-- <ion-checkbox (ionChange)="click($event)" labelPlacement="end">Sou Cliente</ion-checkbox>  -->
+        <br><br>
+        <ion-button (click) = "click('cliente')"  color="success">Sou Cliente</ion-button>
+        <br><br>
+        <ion-button (click) = "click('prestador')"  color="primary">Sou Prestador</ion-button>
+           
+       <ion-toolbar [color]="cor" >
+        <ion-title >Sou {{tipoUser}}</ion-title>
+      </ion-toolbar>
+
+
+
